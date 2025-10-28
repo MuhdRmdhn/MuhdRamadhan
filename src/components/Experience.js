@@ -3,20 +3,40 @@ import Card from './Card';
 import './Experience.css';
 
 
-import OtsawSwisslogLogo from '../image/otsawswisslog.jpeg'; 
-import OtsawLogo from '../image/otsaw.png';       
+import OtsawSwisslogLogo from '../image/otsawswisslog.jpeg';        
 import LionsBotLogo from '../image/lionsbot.png'; 
+import XsquareTechnologies from '../image/xsquarelogo.webp';
 
 const Experience = () => {
   return (
     <div className="experience-container">
+    <Card 
+      logo={XsquareTechnologies}
+      title="Project Engineer (AGV) at XSQUARE Technologies"
+      content={
+        <>
+          <p><strong>Full-time</strong> · Singapore · On-site</p>
+          <p><strong>Jun 2025 - Present</strong></p>
+          <ul>
+            <li>Lead end-to-end AGV rollouts at client sites: hardware setup, software configuration, and system validation.</li>
+            <li>Design turnkey AGV solutions mapped to client workflows; optimize routes, tasks, and fleet logic to exceed KPIs.</li>
+            <li>Own technical discovery with customers; translate requirements into feasible, scalable deployment plans.</li>
+            <li>Run commissioning, integration testing, and SAT/UAT to secure acceptance and on-time go-live.</li>
+            <li>Coordinate cross-functionally with engineering and project teams to tailor capabilities to site constraints.</li>
+            <li>Lead go-live, handover, onboarding, and documentation to ensure operational readiness.</li>
+            <li>Provide targeted project-phase troubleshooting when needed (focus on delivery quality vs. support operations).</li>
+          </ul>
+        </>
+      }
+    />
+
       <Card 
         logo={OtsawSwisslogLogo}
-        title="Senior Field Service Engineer at Swisslog Healthcare"
+        title="Senior Service Engineer at Swisslog Healthcare"
         content={
           <>
-            <p><strong>Full-time · 2 yrs</strong> · Singapore · On-site</p>
-            <p><strong>Jun 2024 - Present · 5 mos</strong></p>
+            <p><strong>Full-time</strong> · Singapore · On-site</p>
+            <p><strong>Jun 2021 - May 2025</strong></p>
             <ul>
               <li>Oversee and coordinate engineers on site, ensuring efficient and effective performance of their duties.</li>
               <li>Work on Automated Guided Vehicles (AGVs), focusing on their operation, maintenance, and troubleshooting.</li>
@@ -35,33 +55,12 @@ const Experience = () => {
       />
 
       <Card 
-        logo={OtsawLogo}
-        title="Field Service Engineer at OTSAW"
-        content={
-          <>
-            <p><strong>Full-time · 1 yr 7 mos</strong> · Singapore · On-site</p>
-            <p><strong>Nov 2022 - May 2024</strong></p>
-            <ul>
-              <li>Supervise a team of technicians, coordinating schedules and distributing daily tasks and activities.</li>
-              <li>Work on Automated Guided Vehicles (AGVs), focusing on their operation, maintenance, and troubleshooting.</li>
-              <li>Manage the service area, particularly monitoring assets such as spare parts, tools, and other equipment.</li>
-              <li>Handle coordination with stakeholders, ensuring effective communication and providing regular progress reports.</li>
-              <li>Perform corrective maintenance on OTSAW products.</li>
-              <li>Lead and collaborate with the team to ensure efficient operation and maintenance activities.</li>
-              <li>Mentor Service Engineers to equip them with corrective maintenance and Tier 2 technical support skills.</li>
-              <li>Prepare and submit Service Reports, Maintenance Reports, and other operations-related documents as needed.</li>
-            </ul>
-          </>
-        }
-      />
-
-      <Card 
         logo={LionsBotLogo}
         title="Robotics Technologist at LionsBot International Pte Ltd"
         content={
           <>
             <p><strong>Full-time · 9 mos</strong> · Singapore · On-site</p>
-            <p><strong>Oct 2020 - Jun 2021</strong></p>
+            <p><strong>Oct 2020 - May 2021</strong></p>
             <ul>
               <li>Diagnose and repair technical issues in robots to ensure optimal performance and minimal downtime.</li>
               <li>Conduct regular inspections of robotic units to identify and address potential problems before they escalate.</li>
